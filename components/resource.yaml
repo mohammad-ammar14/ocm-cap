@@ -9,6 +9,6 @@ spec:
     name: incident-management
     namespace: ocm-system
   resource:
-    name: ic-app
+    name: ic-app-manifests
   snapshotTemplate:
     name: ic-app-deployment
