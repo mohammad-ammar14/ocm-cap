@@ -4,10 +4,11 @@ metadata:
   name: incident-mgmt-deployment
   namespace: ocm-system
 spec:
-  interval: 1m0s
-  sourceRef:
-    kind: ComponentVersion
+  interval: 10m0s
+  componentVersionRef:
     name: incident-management
-    resourceRef:
-      name: deployment
-      version: v1.0.0
+    namespace: ocm-system
+  resource:
+    name: deployment
+  snapshotTemplate:
+    name: ic-app-deployment
