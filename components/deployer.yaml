@@ -6,7 +6,7 @@ metadata:
 spec:
   sourceRef:
     kind: Resource
-    name: incident-mgmt-deployment
+    name: incident-mgmt-deployment-test
   kustomizationTemplate:
     interval: 1m0s
     path: ./
