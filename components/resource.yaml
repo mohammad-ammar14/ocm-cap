@@ -1,13 +1,13 @@
 apiVersion: delivery.ocm.software/v1alpha1
 kind: Resource
 metadata:
-  name: incident-mgmt-deployment-test
+  name: incident-mgmt-deployment
   namespace: ocm-system
 spec:
   interval: 1m0s
   sourceRef:
     kind: ComponentVersion
-    name: incident-management
+    name: incident-management-app
     resourceRef:
       name: deployment
       version: v1.0.0
