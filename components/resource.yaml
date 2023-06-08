@@ -10,4 +10,4 @@ spec:
     name: incident-management-app
     resourceRef:
       name: deployment
-      version: v1.0.0
+      version: latest
